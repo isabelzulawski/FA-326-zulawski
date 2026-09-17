@@ -5,9 +5,9 @@
   <a href="https://0x0800.github.io/2048-CUPCAKES/">
     2048 Cupcakes
   </a>
-  to inspect because it’s a simple game that I’m already familiar with.
-  I also implemented 2048 on the command line a few years ago, so I was
-  interested to see how the developers of this site chose to build the UI.
+  to inspect because it's a simple game that I'm already familiar with. I also implemented 
+  2048 on the command line a few years ago, so I was interested to see how the developers 
+  of this site chose to build the UI.
 </p>
 
 <p>
@@ -21,10 +21,9 @@
 <img src="4096.png" alt="Inspecting the title in Chrome DevTools">
 
 <p>
-  The visible game board is built from a
-  <code>.grid-container</code> with four
-  <code>.grid-row</code> elements. Each row contains four
-  <code>.grid-cell</code> elements, creating the 16-cell board used by 2048.
+  The visible game board is built from a <code>.grid-container</code> with four
+  <code>.grid-row</code> elements. Each row contains four <code>.grid-cell</code> 
+  elements, creating the 16-cell board used by 2048.
 </p>
 
 <img src="grid.png" alt="Grid container and grid rows">
@@ -38,9 +37,8 @@
 <img src="positions.png" alt="Cupcake tile positions in the tile container">
 
 <p>
-  When the user makes a move, those
-  positions change, and the number of cupcake elements can also change depending
-  on whether new tiles appear or tiles combine.
+  When the user makes a move, those ositions change, and the number of cupcake elements 
+  can also change depending on whether new tiles appear or tiles combine.
 </p>
 
 <img src="positions2.png" alt="New cupcake tile positions in the tile container">
@@ -49,12 +47,12 @@
 <p>
   I also used the Styles panel to look at the CSS being applied to different
   parts of the page. For example, I changed the background color of the
-  <strong>New Game</strong> button, and the change appeared immediately on the
+  <strong>Play Again</strong> button, and the change appeared immediately on the
   page. This made it easy to see how the HTML structure and CSS styling work
   separately.
 </p>
 
-<img src="green.png" alt="Changing the New Game button color">
+<img src="green.png" alt="Changing the Play Again button color">
 
 <p>
   I also changed the width of the cupcake images to 150%, which made all of the
@@ -66,9 +64,9 @@
 
 <p>
   Under the Sources tab, I looked through the <code>js</code> folder and found
-  the JavaScript files that control the actual game. In
-  <code>game_manager.js</code> specifically, you can see a lot of the main game
-  logic, including how the board is updated and how the game responds to moves.
+  the JavaScript files that control the actual game. In <code>game_manager.js</code> specifically,
+  you can see a lot of the main game logic, including how the board is updated and 
+  how the game responds to moves.
 </p>
 
 <img src="gamemanager.png" alt="game_manager.js in the Sources tab">
